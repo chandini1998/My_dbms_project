@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+function fact()
+{
+var n;
+var fact=1;
+n=Number(document.getElementById("num").value);
+
+for(i=1;i<=n;i++)
+{
+fact=fact*i;
+}
+document.getElementById("ans").value=fact;
+}
+
+</script>
+</head>
+<body>
+<h1>calculate the factorial</h1>
+<hr color="cyan">
+<br>
+enter the number:<input type="text" id="num"></input></br>
+answer<input id="ans">
+<center><button onclick="fact()">OK</button>
+
+<hr color="cyan">
+</body>
+</html>

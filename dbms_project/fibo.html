@@ -1,0 +1,40 @@
+<html>
+<head>
+<script>
+function fibo()
+{
+
+var f1=0,f2=1,f3;
+n=Number(document.getElementById("num").value);
+if(n==1)
+{
+document.write(f1)
+}
+else if(n==2)
+{
+document.write(f2)
+}
+else if
+{
+for(i=3;i<=n;i++)
+{
+f3=f1+f2;
+document.write(f3);
+
+}
+
+}
+f1=f2;
+f2=f3;
+}
+</script>
+</head>
+<body>
+<h1>fibonacii series</h1>
+<hr color="cyan">
+<br>
+enter the number:<input type="text" id="num"></input></br>
+<center><button onclick="fibo()">OK</button>
+<hr color="cyan">
+</body>
+</html>

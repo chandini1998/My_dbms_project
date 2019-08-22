@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+function recfact(n)
+{
+n=Number(document.getElementById("num").value);
+
+if(n==0 || n==1)
+document.write("1")
+else
+fact=n*recfact(n-1)
+document.write()
+}
+</script>
+</head>
+<body>
+<h1>calculate the factorial</h1>
+<hr color="cyan">
+<br>
+enter the number:<input type="text" id="num"></input></br>
+<center><button onclick="recfact()">OK</button>
+<hr color="cyan">
+</body>
+</html>

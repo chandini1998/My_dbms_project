@@ -1,0 +1,49 @@
+<html>
+<head>
+<script>
+function prime()
+
+{
+var n,i=2,count=0;
+n=parseInt(document.getElementById("num").value);
+
+while(i<=parseInt(n/2))
+{
+if(n%i==0)
+{
+count=1;
+break;
+}
+i++;
+}
+if(count==0)
+{
+document.write("it is a prime")
+}
+else
+
+
+document.write("it is not a prime")
+}
+
+</script>
+</head>
+<body>
+
+<frameset rows= "25%,50%,25%>
+<frame name="top" src="top.html"/>
+<frame name="main" src="midddle.html"/>
+<frame name="bottom" src="bottom.html"/>
+
+</frameset>
+
+<h1>prime numbers</h1>
+<hr color="cyan">
+<br>
+enter the number:<input type="text" id="num"></input></br>
+<button onclick="prime()">OK</button>
+<hr color="cyan">
+
+
+</body>
+</html>

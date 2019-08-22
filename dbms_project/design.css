@@ -1,0 +1,15 @@
+
+body{
+background-color:red;
+}
+th,td {
+background-color:yellow;
+}
+
+ol,ul{
+background-color:yellow;
+font-family:"times new roman";
+font-style:italic;
+color:red;
+}
+
